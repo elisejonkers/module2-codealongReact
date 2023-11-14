@@ -38,13 +38,17 @@ textarea {
   width: 100%;
   margin-bottom: 15px;
   padding: 5px;
+  text-align: center;
 }
 
-.Navbar li {
-  list-style: none;
+.Navbar a {
   color: white;
-  font-size: 24px;
-  font-weight: 600;
+  padding: 1rem;
+  text-decoration: none;
+}
+
+.Navbar a.active{
+  text-decoration: underline;
 }
 
 .card {
