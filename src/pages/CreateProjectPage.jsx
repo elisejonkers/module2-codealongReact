@@ -2,7 +2,7 @@ import axios from "axios";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
-const API_URL = "https://project-management-api-4641927fee65.herokuapp.com/"
+const API_URL = "https://project-management-api-4641927fee65.herokuapp.com"
 
 function CreateProjectPage () {
     
@@ -29,7 +29,7 @@ function CreateProjectPage () {
         // }
         
         // send POST request
-        axios.post(API_URL + "projects", requestBody)
+        axios.post(API_URL + "/projects", requestBody)
             .then( (response) => {
                 // project created, redirect
                 navigate("/projects")
