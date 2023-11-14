@@ -27,7 +27,7 @@ function ProjectListPage() {
   return (
     <div className="ProjectListPage">
       <h1>List of projects:</h1>
-      <Link to="/project/create">
+      <Link to="/projects/create">
         <button>Create Project</button>
       </Link>
 
